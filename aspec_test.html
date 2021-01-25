@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Mehr oder weniger online...</title>
+
+<link rel="stylesheet" href="css/vtree.css" type="text/css"/>
+
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="dist/vtree.js"></script>
+
+<!-- How to use debug mode.
+  1. open browser's developer tools.
+  2. input the following command.
+     vt.debug(true).update()
+-->
+
+<script type="text/javascript">
+var vt;
+
+window.onload = function () {
+  var container = document.getElementById("container");
+  var msg = document.getElementById("msg");
+  vt = new VTree(container);
+  var reader = new VTree.reader.Object();
+
+  function updateTree() {
+    var s =`[{ "global": [{"aspec": ["test","test2"]}] ,"testglobal": [ {"test": ["abc","cde"]}]}]` 
+
+    //var s = document.getElementById("from-text").value;
+
+
+    msg.innerHTML = '';
+
+    try {
+      var jsonData = JSON.parse(s);
+    } catch (e) {
+      msg.innerHTML = 'JSON parse error: ' + e.message;
+    }
+
+    var data = reader.read(jsonData);
+
+    vt.data(data)
+      .update();
+  }
+
+
+
+  updateTree();
+};
+
+</script>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Das Dokument lol</h1>
+
+
+
+    <div id="msg" style="color: red;"></div>
+
+    <div id="container"></div>
+<!--
+    <script type="text/javascript">
+    var s = document.getElementById("from-text").value;
+      document.write(s);
+    </script>
+    <p style="text-align: right;">Created Date: 2014-07-27, Modified Date: 2018-11-01</p>
+-->
+  </div>
+</body>
+
+</html>
