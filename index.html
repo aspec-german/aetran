@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Online JSON to Tree Diagram Converter</title>
+<title>Mehr oder weniger online...</title>
 
 <link rel="stylesheet" href="css/vtree.css" type="text/css"/>
 
@@ -16,77 +16,20 @@
      vt.debug(true).update()
 -->
 
-<script type="text/javascript">
-var vt;
-
-window.onload = function () {
-  var container = document.getElementById("container");
-  var msg = document.getElementById("msg");
-  vt = new VTree(container);
-  var reader = new VTree.reader.Object();
-
-  function updateTree() {
-    var s = document.getElementById("from-text").value;
-
-    msg.innerHTML = '';
-
-    try {
-      var jsonData = JSON.parse(s);
-    } catch (e) {
-      msg.innerHTML = 'JSON parse error: ' + e.message;
-    }
-
-    var data = reader.read(jsonData);
-
-    vt.data(data)
-      .update();
-  }
-
-  function createSvgString() {
-    document.getElementById("svg-text").value = vt.createSvgString();
-  }
-
-  document.getElementById("go-button").onclick = updateTree;
-  document.getElementById("svg-button").onclick = createSvgString;
-
-  updateTree();
-};
-
-</script>
+<script src="content.js"></script>
 
 </head>
 
 <body>
   <div class="container">
 
-    <h1>Online JSON to Tree Diagram Converter</h1>
+    <h1>Das schiebt hier aber gaaaaanz anders ins Spektrum rein</h1>
 
-    <p style="text-align: right;"><a href="https://github.com/ivan111/vtree">github</a></p>
 
-    <div style="margin-top: 1em;">
-      <label for="from-text">JSON</label><br>
-      <textarea id="from-text" rows="6" cols="80">[{ "array": [ 1, 2, [3, 4], 5 ], "boolean": true, "null": null, "number": 123, "object": { "a": "b", "c": "d", "e": "f" }, "string": "Hello World" }, { "|": "|", "  ": { "ʕ": "" }, " ": ["◕", [ { "hello! ": "<ﾆフ" } ], "◕"], "_": { "": "ʔ" } }]</textarea>
-    </div>
-
-    <div style="margin-top: 1em;">
-      <input id="go-button" type="button" value="Visualize">
-    </div>
 
     <div id="msg" style="color: red;"></div>
 
     <div id="container"></div>
-
-    <div style="margin-top: 1em;">
-      <input id="svg-button" type="button" value="Get SVG String">
-    </div>
-
-    <div style="margin-top: 1em;">
-      <p>If you want to export the diagram as a svg file, copy the following text into a text editor and save the file with a .svg extension.</p>
-      <textarea id="svg-text" rows="6" cols="80"></textarea>
-    </div>
-
-    <p style="text-align: right;">Created Date: 2014-07-27, Modified Date: 2018-11-01</p>
-
   </div>
 </body>
 
