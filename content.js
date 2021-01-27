@@ -34,16 +34,20 @@ window.onload = function () {
               	"Männlich smushed...":
               	[{
               		"Männlich smushed u.a. männlich":"Achillean",
-              		"Mann liebt nur Männer":"Schwul",
+              		"Mann smushed nur Männer":"Schwul",
+	              	"Männlich smushed u.a. männlich & enby":"Asterosian",     
+	              	"Männlich smushed u.a. enby":"Astroidian",
               		"Weitere Begriffe":"Androcupiosappho"
               	}],
               	"Weiblich smushed":"Weiblich smushed...",
               	"Weiblich smushed...":
               	[{
 	              	"Weiblich smushed u.a. weiblich":"Agatic",
-	              	"Weiblich smushed weiblich & enby":"Amethystian"            		
+	              	"Weiblich smushed weiblich & enby":"Amethystian",         
+	              	"Weiblich smushed u.a. enby":"Asterian"
               	}],
               	"Enby smushed Enby":"Aliamoric",
+              	"Enby smushed Enby und Frauen":"Brownitian",
               	"1 Agender smushed":"Agenamoric",
               	"Agenamoric":
               	[{
@@ -60,16 +64,24 @@ window.onload = function () {
               	"1 Anonbinary smushed":"Anonbinary...",
               	"Anonbinary...":
               	[{
-              	"1 Anonbinary smushed nur Agender":"Argelinne",
-              	"Weitere Begriffe:":"Artudette"
+	              	"1 Anonbinary smushed nur Agender":"Argelinne",
+	              	"Weitere Begriffe:":"Artudette"
+              	}],
+              	"Genderfluid smushed":"Genderfluid smushed...",
+              	"Genderfluid smushed...":
+              	[{
+              		"Genderfluid smushed weiblich":"Auriora"
               	}],
               	"Binär zu Binär, egal wie":"Binian",
-              	"Nicht-Mann zu Nicht-Mann":"Daunic",
               	"Mehrere bestimmte Gender zu":"Mehrere bestimmte Gender zu...",
               	"Mehrere bestimmte Gender zu...":
               	[{
-              	"... zu M-Spec binär":"Anfisian",
-              	"Weitere Begriffe":"Alexandritic"
+	              	"... smushed M-Spec binär":"Anfisian, Aurian",
+	              	"... smushed Männer":"Azurian",
+	              	"... smushed Enby und Männer":"Aventurian",
+	              	"... smushed Enby und Frauen":"Axinitian, Benitoitic",
+	              	"Nicht-Mann smushed Nicht-Mann":"Daunic",
+	              	"Weitere Begriffe":"Alexandritic"
               	}]
               }],
               "unabhängig vom eigenem Gender":"non-juvelic",
@@ -80,15 +92,22 @@ window.onload = function () {
               	[{
               		"Umbrella Term":"Multisexuell, Plurisexuell",
 	              	"Unabhängig vom Gender":"Pansexuell, Ambivaic, Anthro",
+	              	"Unabhängig vom Gender #2":"Blanesexual",
 	              	"Zu allen Gender":"Omnisexuell, Ambivaic",
 	              	"Mindestens 2 Gender":"Bisexuell",
+	              	"Smushed beide binäre Gender":"Binsexual",
+	              	"Vielleicht mindestens 2 Gender":"Bicurious, Biflexible, Biflux",
 	              	"Zu vielen, aber nicht allen Gender":"Polysexual",
 	              	"Präferenz zu neutrale Gender":"Ainic",
               		"Smushed u.a. Agender-Menschen":"Ageninic",
               		"Smushed nur neutrale Gender":"Neusexuell",
 	              	"Weitere Begriffe":"Ambisexuell",
 	              	"Smushed Faunagender":"Anuafsexuell",
-	              	"Smushed Kingender":"Anuafsexuell"
+	              	"Smushed Kingender":"Anuafsexuell",
+	              	"Smushed wechselnde Gender":"Aquian",
+	              	"Smushed Bigender":"Bigeninic",
+	              	"Mindestens 2 Gender ohne Männer":"Binitor",
+	              	"Mindestens 2 Gender ohne Frauen":"Binotrix"
               	}],
               	"Zu einem Gender":"Monosexuell",
               	"Monosexuell":
@@ -97,23 +116,30 @@ window.onload = function () {
               		"Smushed hauptsächlich männlich":"Androflexible",
               		"Smushed ausschließlich männlich":"Androgynosexuell",
               		"Smushed ausschließlich Männer":"Androsexuell",
-              		"Weitere Begriffe":"Aphrodisexual"
+              		"Smushed genderfluid strayt girls":"Aphrodisexual"
               	}],
-              	"Mindestens eine Orientierung":"Amplusic"
+              	"Mindestens eine Orientierung":"Amplusic",
+              	"Die Eigenaziehung variiert":"Autoflux",
+              	"Ausnahme für 1 bestimmte Person":"Boreasexuell",
+	            "Smushed binäre Gender":"Binaric, Boric"
               }]
             }],
           "Orientiert nach Körpermerkmalen": "Körpererkmale",
-          "Vorlieben am Menschen":
+          "Körpererkmale":
             [{
               "Haare":"Ja wie nennt sich das?",
               "Augen":"Ja wie nennt sich das?",
-              "Intelligenz":"Sapiosexualität"
+              "Kultur":"Bloodsexuell",
+              "Intelligenz":"Sapiosexuell"
             }],
           "Amative Orientierung": "amative Orientierung",
           "amative Orientierung":
           [{
               "Vorhandensein von Anziehung": "Allosexuell",
               "Kein Interesse an der Anziehung":"Apathsexuell",
+	          "Andere Sexualität als erwünscht":"Buenosexuell",
+              "Innere Hürde beim Ausleben":"Aporisexuell",
+              "Sexuell aktiv nur mit Anziehung":"Axiosexuell",
               "Bedingte/keine/wenig Anziehung":"Asexual Spectrum",
               "Asexual Spectrum":
               [{
@@ -129,14 +155,19 @@ window.onload = function () {
                   [{
 	                  "Bestehnde Bindung": "Demisexuell",
 	                  "Keine Bestehnde Bindung": "Freysexuell",
-	                  "Die Person fühlt sich zu mir angezogen":"Reciprosexuell"
+	                  "Die Person fühlt sich zu mir angezogen":"Reciprosexuell",
+	                  "Fiktive Charaktere":"Fictosexuell",
+	                  "Fictosexuell":
+	                  [{
+	                  	"Charaktere aus Büchern":"Booklosexuell"
+	                  }]
          	      }],
          	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
          	      "Zeitlich Variable Sexualität":
          	      [{
 	                  "Variiernde Anziehungstärke": "Aceflux, Alloflux",
 	                  "Anziehungsspitzen": "Acespike, Allospike",
-	                  "Die Identität variiert":"Abrosexuell"
+	                  "Die Identität variiert":"Abrosexuell, *flexible, *flux"
          	      }]
                 }],
               "Ich weiß nicht, was zu mir passt":"Agnosexuell"
@@ -162,8 +193,12 @@ window.onload = function () {
           	"Nur mit sich selbst":"Autosexuell",
           	"Maximal zu zweit":"Monoa",
           	"Auch mit 2+ Menschen":"Polya"
-          }]
-
+          }],
+        "Konzepte":"Konzeptionell",
+        "Konzeptionell":
+	        [{
+	        	"Gliederung in Ebenen":"Brickhillsexuell"
+	        }]
         }] ,
       "arospec":
         [
