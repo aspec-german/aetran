@@ -27,7 +27,28 @@ window.onload = function () {
           "affinitive Orientierung":
             [{
               "Abhängig vom eigenem Gender": "juvelic",
-              "unabhängig vom eigenem Gender":"non-juvelic"
+              "juvelic":
+              [{
+              	"Zum eigenem Gender":"Homosexuell"
+              }],
+              "unabhängig vom eigenem Gender":"non-juvelic",
+              "non-juvelic":
+              [{
+              	"Zu mehreren Gender":"M-Spec",
+              	"M-Spec":
+              	[{
+              		"Umbrella Term":"Multisexuell, Plurisexuell",
+	              	"Unabhängig vom Gender":"Pansexuell",
+	              	"Zu allen Gender":"Omnisexuell",
+	              	"Mindestens 2 Gender":"Bisexuell",
+	              	"Zu vielen, aber nicht allen Gender":"Polysexual"              		
+              	}],
+              	"Zu einem Gender":"Monosexuell",
+              	"Monosexuell":
+              	[{
+              		"Ich hatte gehofft":"ich finde hier etwas"
+              	}]
+              }]
             }],
           "Orientiert nach Körpermerkmalen": "Körpererkmale",
           "Vorlieben am Menschen":
@@ -46,26 +67,25 @@ window.onload = function () {
               "Umbrella Term": "Asexual Spectrum",
               "Umbrella Term": "Acespec",
               "Ich spüre nie Anziehung": "Asexuell",
-              "Ich spüre bedingt Anziehung": "Graubereich",
+              "Ich spüre teilweise Anziehung": "Graubereich",
               "Graubereich": 
                 [{
                   "Umbrella Term": "Greysexuell",
                   "Bedingungen": "Bedingte Sexualität",
                   "Bedingte Sexualität":
                   [{
-                  "Bedingung: Bestehnde Bindung mit der Person.": "Demisexuell",
-                  "Bedingung: Keine Bestehnde Bindung mit der Person.": "Freysexuell"
-
+	                  "Bestehnde Bindung": "Demisexuell",
+	                  "Keine Bestehnde Bindung": "Freysexuell",
+	                  "Die Person fühlt sich zu mir angezogen":"Reciprosexuell"
          	      }],
          	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
          	      "Zeitlich Variable Sexualität":
          	      [{
-                  "Variiernde Anziehung": "Aceflux, Alloflux",
-                  "Anziehungsspitzen": "Acespike, Allospike"
-
+	                  "Variiernde Anziehung": "Aceflux, Alloflux",
+	                  "Anziehungsspitzen": "Acespike, Allospike"
          	      }]
-                }]   
-
+                }],
+              "Ich weiß nicht, was zu mir passt":"Agnosexuell"
               }]         
           }],
           "sexuelle Präferenz": "sexuelle Präferenzen",
@@ -76,14 +96,14 @@ window.onload = function () {
           "Gründe":"Kausale Sexualität",
           "Kausale Sexualität":
           [{
-          	"Hat Jemensch":"Beispiele hierzu?"
+          	"Wunsch nach Kindern":"Kinderwunsch"
           }],
-          "Mit wie viel Menschen":"mono/polyi-Dimension",
-          "mono/polyi-Dimension":
+          "Mit wie viel Menschen":"mono/poly-Dimension",
+          "mono/poly-Dimension":
           [{
-          	"Mit sich selbst":"rip mein Gedächnis",
-          	"Zu zweit":"Monosexuell",
-          	"Mit mehreren Menschen":"Polysexuell"
+          	"Nur mit sich selbst":"Autosexuell",
+          	"Maximal zu zweit":"Monoa",
+          	"Auch mit 2+ Menschen":"Polya"
           }]
 
         }] ,
