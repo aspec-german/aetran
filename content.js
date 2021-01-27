@@ -26,25 +26,64 @@ window.onload = function () {
           "Orientiert nach Gender": "affinitive Orientierung",
           "affinitive Orientierung":
             [{
-              "Ich spüre immer Anziehung": "Allosexuell",
-              "Ich spüre manchmal Anziehung":"Graubereich"
+              "Abhängig vom eigenem Gender": "juvelic",
+              "unabhängig vom eigenem Gender":"non-juvelic"
             }],
           "Orientiert nach Körpermerkmalen": "Körpererkmale",
-          "Körpererkmale":
+          "Vorlieben am Menschen":
             [{
-              "Haare":"Haare lol"
+              "Haare":"Ja wie nennt sich das?",
+              "Augen":"Ja wie nennt sich das?",
+              "Intelligenz":"Sapiosexualität"
             }],
           "Amative Orientierung Groß": "amative Orientierung",
           "amative Orientierung":
           [{
-              "Ich spüre immer Anziehung": "Allosexuell",
-              "Ich spüre manchmal Anziehung":"Graubereich",
-              "Ich spüre keine Anziehung": "Asexuell",
+              "Vorhandensein von Anziehung": "Allosexuell",
+              "bedingt/keine/wenig Anziehung":"Asexual Spectrum",
+              "Asexual Spectrum":
+              [{
+              "Umbrella Term": "Asexual Spectrum",
+              "Umbrella Term": "Acespec",
+              "Ich spüre nie Anziehung": "Asexuell",
+              "Ich spüre bedingt Anziehung": "Graubereich",
               "Graubereich": 
                 [{
-                  "Ich spüre erst dann Anziehung, wenn ich bereits eine Bindung mit der Person eingegangen bin.": "Demisexuell",
-                  "test": "try2"
-                }]            
+                  "Umbrella Term": "Greysexuell",
+                  "Bedingungen": "Bedingte Sexualität",
+                  "Bedingte Sexualität":
+                  [{
+                  "Bedingung: Bestehnde Bindung mit der Person.": "Demisexuell",
+                  "Bedingung: Keine Bestehnde Bindung mit der Person.": "Freysexuell"
+
+         	      }],
+         	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
+         	      "Zeitlich Variable Sexualität":
+         	      [{
+                  "Variiernde Anziehung": "Aceflux, Alloflux",
+                  "Anziehungsspitzen": "Acespike, Allospike"
+
+         	      }]
+                }]   
+
+              }]         
+          }],
+          "sexuelle Präferenz": "sexuelle Präferenzen",
+          "sexuelle Präferenzen":
+          [{
+          	"Kinks":"test"
+          }],
+          "Gründe":"Kausale Sexualität",
+          "Kausale Sexualität":
+          [{
+          	"Hat Jemensch":"Beispiele hierzu?"
+          }],
+          "Mit wie viel Menschen":"mono/polyi-Dimension",
+          "mono/polyi-Dimension":
+          [{
+          	"Mit sich selbst":"rip mein Gedächnis",
+          	"Zu zweit":"Monosexuell",
+          	"Mit mehreren Menschen":"Polysexuell"
           }]
 
         }] ,
