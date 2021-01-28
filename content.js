@@ -52,7 +52,10 @@ window.onload = function () {
               	[{
 	              	"Enby smushed Enby":"Aliamoric",
 	              	"Enby smushed Enby und Männer":"Schwul",
-	              	"Enby smushed Enby und Frauen":"Brownitian, Lesbisch"
+	              	"Enby smushed Enby und Frauen":"Brownitian, Lesbisch",
+	              	"Enby smushed Enby und stellarian":"Terrarian",
+	              	"Enby smushed männlich und solarian":"Marsic",
+	              	"Enby smushed weiblich und lunarian":"Venusic"
               	}],
               	"1 Agender smushed":"Agenamoric",
               	"Agenamoric":
