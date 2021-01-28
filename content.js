@@ -33,21 +33,27 @@ window.onload = function () {
               	"Männlich smushed":"Männlich smushed...",
               	"Männlich smushed...":
               	[{
-              		"Männlich smushed u.a. männlich":"Achillean",
+              		"Männlich smushed u.a. männlich":"Achillean, Schwul",
               		"Mann smushed nur Männer":"Schwul",
-	              	"Männlich smushed u.a. männlich & enby":"Asterosian",     
+	              	"Männlich smushed u.a. männlich & enby":"Asterosian, Schwul",     
 	              	"Männlich smushed u.a. enby":"Astroidian",
               		"Weitere Begriffe":"Androcupiosappho"
               	}],
               	"Weiblich smushed":"Weiblich smushed...",
               	"Weiblich smushed...":
               	[{
-	              	"Weiblich smushed u.a. weiblich":"Agatic",
-	              	"Weiblich smushed weiblich & enby":"Amethystian",         
+	              	"Weiblich smushed u.a. weiblich":"Agatic, Lesbisch, Sapphic",
+	              	"Frau smushed nur Frauen":"Lesbisch",
+	              	"Weiblich smushed weiblich & enby":"Amethystian, Lesbisch, Sapphic",         
 	              	"Weiblich smushed u.a. enby":"Asterian"
               	}],
-              	"Enby smushed Enby":"Aliamoric",
-              	"Enby smushed Enby und Frauen":"Brownitian",
+              	"Enby smushed":"Enby Smushed",
+              	"Enby Smushed":
+              	[{
+	              	"Enby smushed Enby":"Aliamoric",
+	              	"Enby smushed Enby und Männer":"Schwul",
+	              	"Enby smushed Enby und Frauen":"Brownitian, Lesbisch"
+              	}],
               	"1 Agender smushed":"Agenamoric",
               	"Agenamoric":
               	[{
@@ -135,7 +141,7 @@ window.onload = function () {
           "Amative Orientierung": "amative Orientierung",
           "amative Orientierung":
           [{
-              "Vorhandensein von Anziehung": "Allosexuell",
+              "Vorhandensein von Anziehung": "Allosexuell, Zedsexual",
               "Kein Interesse an der Anziehung":"Apathsexuell",
 	          "Andere Sexualität als erwünscht":"Buenosexuell",
               "Innere Hürde beim Ausleben":"Aporisexuell",
@@ -155,12 +161,7 @@ window.onload = function () {
                   [{
 	                  "Bestehnde Bindung": "Demisexuell",
 	                  "Keine Bestehnde Bindung": "Freysexuell",
-	                  "Die Person fühlt sich zu mir angezogen":"Reciprosexuell",
-	                  "Fiktive Charaktere":"Fictosexuell",
-	                  "Fictosexuell":
-	                  [{
-	                  	"Charaktere aus Büchern":"Booklosexuell"
-	                  }]
+	                  "Die Person fühlt sich zu mir angezogen":"Reciprosexuell"
          	      }],
          	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
          	      "Zeitlich Variable Sexualität":
@@ -198,18 +199,25 @@ window.onload = function () {
         "Konzeptionell":
 	        [{
 	        	"Gliederung in Ebenen":"Brickhillsexuell"
+	        }],
+	        "Abstraktion":"Abstraktionsebene",
+	        "Abstraktionsebene":
+	        [{
+	        	"Fiktive Charactere":"Fiktosexuell",
+	        	"Fiktosexuell":
+	        	[{
+	                "Charaktere aus Büchern":"Booklosexuell"	        		
+	        	}]
 	        }]
         }] ,
       "arospec":
-        [
-          {
+        [{
             "test":
               [
                 "Graubereich",
                 "cde"
               ]
-          }
-        ] ,
+         }],
       "Sexueller Natur": "Sexuell",
       "Romantisch": "arospec"
 
