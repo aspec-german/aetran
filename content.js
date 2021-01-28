@@ -50,9 +50,9 @@ window.onload = function () {
               	"Enby smushed":"Enby Smushed",
               	"Enby Smushed":
               	[{
-	              	"Enby smushed Enby":"Aliamoric",
-	              	"Enby smushed Enby und Männer":"Schwul",
-	              	"Enby smushed Enby und Frauen":"Brownitian, Lesbisch",
+	              	"Enby smushed Enby":"Aliamoric, Terrarian",
+	              	"Enby smushed Enby und Männer":"Schwul, Marsic",
+	              	"Enby smushed Enby und Frauen":"Brownitian, Lesbisch, Venusic",
 	              	"Enby smushed Enby und stellarian":"Terrarian",
 	              	"Enby smushed männlich und solarian":"Marsic",
 	              	"Enby smushed weiblich und lunarian":"Venusic"
