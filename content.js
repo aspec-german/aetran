@@ -18,6 +18,10 @@ window.onload = function () {
 
     // Best practice totally
     var s =`[{
+      "Umbrella Terms":
+      [{
+        "Alle GRSM-Personen":"Gay"
+      }],
 
 
 
@@ -29,10 +33,11 @@ window.onload = function () {
               "Abhängig vom eigenem Gender": "juvelic",
               "juvelic":
               [{
-              	"Zum eigenem Gender":"Homosexuell, Amberian",
+              	"Zum eigenem Gender":"Homosexuell, Amberian, Gay",
               	"Präferenz zum eigenem Gender":"Cupiogex",
               	"Präf. zum ggü. liegendem Gender":"Cupiohex",
               	"Zum gegenüberliegendem Gender":"Enanteic",
+                "Zur eigenem Sexualität":"GaySexual, Mutusexual",
               	"Männlich smushed":"Männlich smushed...",
               	"Männlich smushed...":
               	[{
@@ -57,12 +62,13 @@ window.onload = function () {
               	"Enby smushed":"Enby smushed...",
               	"Enby smushed...":
               	[{
-	              	"... Enby":"Aliamoric, Terrarian, Contraic",
+	              	"... Enby #1":"Aliamoric, Terrarian",
+                  "... Enby #2":"Contraic, Gai",
 	              	"... u.a. Enby":"Enbian",
 	              	"... Enby und Männer":"Schwul, Marsic, Enbitor",
-	              	"... u.a. Enby und Männer":"Carnelian",
+	              	"... u.a. Enby und Männer":"Carnelian, Gaibien",
 	              	"... Enby und Frauen":"Brownitian, Lesbisch, Venusic",
-	              	"... Enby und Frauen #2":"Enbitrix",
+	              	"... Enby und Frauen #2":"Enbitrix, Gaybian",
 	              	"... Enby und stellarian":"Terrarian",
 	              	"... smushed Enby und genderqueer":"Ceteramoric",
 	              	"... männlich und solarian":"Marsic",
@@ -106,7 +112,7 @@ window.onload = function () {
               	"Genderqueer smushed":"Genderqueer smushed...",
               	"Genderqueer smushed...":
               	[{
-              		"... Enby und genderqueer":"Ceteramoric",
+              		"... Enby und genderqueer":"Ceteramoric, Galaxsexual",
               		"... Frauen":"Feminamoric"
               	}],
               	"Binär zu Binär, egal wie":"Binian",
@@ -165,12 +171,15 @@ window.onload = function () {
               		"Smushed nur neutrale Gender":"Neusexuell",
               		"Smushed Weiblichkeit":"Finic",
               		"Smushed Genderexpression":"Flixasexual, Flixisexual",
+                  "Smushed Genderkonformität":"GCsexuell",
+                  "Smushed Gender-Nichtkonformität":"GNCsexual",
 	              	"Smushed Faunagender":"Anuafsexuell",
 	              	"Smushed Kingender":"Anuafsexuell",
 	              	"Smushed wechselnde Gender":"Aquian",
 	              	"Smushed Bigender":"Bigeninic",
 	              	"Mindestens 2 Gender ohne Männer":"Binitor",
 	              	"Mindestens 2 Gender ohne Frauen":"Binotrix",
+                  "Smushed primär nicht-weiblich":"Gynecurious",
               		"Smushed u.a. Devilgender":"Devilsexual",
 	              	"Weitere Begriffe":"Ambisexuell"
               	}],
@@ -189,9 +198,9 @@ window.onload = function () {
               		"Smushed u.a. Enby":"Enboric, Feminaesexual",
               		"Smushed u.a. weiblich #1":"Femaric, Feminaesexuell",
               		"Smushed u.a. weiblich #2":"Femmesexuell, Finsexuell",
-              		"Smushed u.a. weiblich #3":"Finflexible",
-              		"Smushed ausschließlich weiblich":"Finwomasexual",
-              		"Smushed ausschließlich Frauen":"Femkalosmin",
+              		"Smushed u.a. weiblich #3":"Finflexible, Gyneflexible",
+              		"Smushed ausschließlich weiblich":"Finwomasexual, Gynesexual",
+              		"Smushed ausschließlich Frauen":"Femkalosmin, Gynesexual",
               		"Smushed u.a. Frauen":"Femkalosmin",
               		"Smushed u.a. Agender":"Firasexual",
               		"Smushed sich selbst":"Autosexuell"
@@ -301,7 +310,8 @@ window.onload = function () {
 	        	"Fiktosexuell":
 	        	[{
 	                "... aus Büchern":"Booklosexuell",
-	                "... aus Comics und Kartoons":"Cartosexual"      		
+	                "... aus Comics und Kartoons":"Cartosexual",
+                  "... aus Videospielen":"Gamosexual"      		
 	        	}],
 	        	"Keine Menschen und Tiere":"Exceptiosexual"
 	        }]
