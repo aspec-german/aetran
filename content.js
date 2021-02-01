@@ -103,7 +103,7 @@ window.onload = function () {
           [{
           	"Nur mit sich selbst":"Autosexuell",
           	"Maximal zu zweit":"Monoa",
-          	"Auch mit 2+ Menschen":"Polya"
+          	"Auch mit 2+ Menschen":"Polya, nicht Monoa"
           }]
 
         }] ,
@@ -118,8 +118,13 @@ window.onload = function () {
           }
         ] ,
       "Sexueller Natur": "Sexuell",
-      "Romantisch": "arospec"
-
+      "Romantisch": "arospec",
+      "Finanzieller Natur":"Finanziell",
+      "Finanziell":
+      [
+      	"Monetuell"
+      ]
+      
       }]` 
 
     //var s = fileToText(inhalt.json)
