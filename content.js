@@ -315,6 +315,9 @@ window.onload = function () {
 	        	}],
 	        	"Keine Menschen und Tiere":"Exceptiosexual"
 	        }]
+          	"Auch mit 2+ Menschen":"Polya, nicht Monoa"
+          }]
+
         }] ,
       "arospec":
         [{
@@ -333,6 +336,12 @@ window.onload = function () {
         "Sexuell und Ästhetisch":"Callisexual"
       }]
 
+      "Finanzieller Natur":"Finanziell",
+      "Finanziell":
+      [
+      	"Monetuell"
+      ]
+      
       }]` 
 
     //var s = fileToText(inhalt.json)
