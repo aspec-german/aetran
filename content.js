@@ -187,7 +187,58 @@ window.onload = function () {
 			            "Weitere Begriffe":"Alexandritic, Courscatian" 	
               		}],
               		"Weitere Begriffe":"Lahurian, Lahuric, Lapisian"   
-              	}]
+              	}],
+
+		        "Anziehungen innerhalb von Systemen":"Mutolic",
+		        "Mutolic":
+		        [{
+		        	"Von Frau zu":"Von Frau zu...",
+		        	"Von Frau zu...":
+		        	[{
+		        		"... zu Frau":"Saputolic",
+		        		"... zu Mann":"Ergatolic",
+		        		"... zu Enby":"Finbatolic",
+		        		"... zu Agender":"Fernatolic",
+		        		"... zu Xenogender":"Xebatolic"
+		        	}],
+		        	"Von Mann zu":"Von Mann zu...",
+		        	"Von Mann zu...":
+		        	[{
+		        		"... zu Frau":"Achutolic",
+		        		"... zu Mann":"Ergotolic",
+		        		"... zu Enby":"Virbatolic",
+		        		"... zu Agender":"Fernotolic",
+		        		"... zu Xenogender":"Xebotolic"		        		
+		        	}],
+		        	"Von Enby zu":"Von Enby zu...",
+		        	"Von Enby zu...":
+		        	[{
+		        		"... zu Frau":"Edvatolic",
+		        		"... zu Mann":"Edvotolic",
+		        		"... zu Enby":"Entolic",
+		        		"... zu Agender":"Edvetolic",
+		        		"... zu Xenogender":"Edvextolic"		        		
+		        	}],
+		        	"Von Agender zu":"Von Agender zu...",
+		        	"Von Agender zu...":
+		        	[{
+		        		"... zu Frau":"Advatolic",
+		        		"... zu Mann":"Advotolic",
+		        		"... zu Enby":"Advetolic",
+		        		"... zu Agender":"Agtolic",
+		        		"... zu Xenogender":"Advixatolic"		        		
+		        	}],
+		        	"Von Xenogender zu":"Von Xenogender zu...",
+		        	"Von Xenogender zu...":
+		        	[{
+		        		"... zu Frau":"Xitalic",
+		        		"... zu Mann":"Xitolic",
+		        		"... zu Enby":"Xitetolic",
+		        		"... zu Agender":"Xinertolic",
+		        		"... zu Xenogender":"Xentolic"		        		
+		        	}]
+
+		        }]
               }],
               "unabhängig vom eigenem Gender":"non-juvelic",
               "non-juvelic":
@@ -394,20 +445,6 @@ window.onload = function () {
 	        }],
           	"Fiktiv und menschlich":"Kaitasexual",
           	"Auch mit 2+ Menschen":"Polya, nicht Monoa"
-        }],
-        "Anziehungen innerhalb von Systemen":"Mutolic",
-        "Mutolic":
-        [{
-        	"Von Frau zu":"Von Frau zu...",
-        	"Von Frau zu...":
-        	[{
-        		"Frau zu Frau":"Saputolic",
-        		"Mann zu Mann":"Achutolic",
-        		"Enby zu Enby":"Entolic",
-        		"Agender zu Agender":"Agtolic",
-        		"Xenogender zu Xenogender":"Xentolic"
-        	}]
-
         }],
       "arospec":
         [{
