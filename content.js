@@ -118,7 +118,7 @@ window.onload = function () {
 	              	"Genderfluid smushed...":
               	[{
               		"... weiblich":"Auriora",
-              		"... enby":"Hecatolic",
+              		"... enby":"Hecatolic, Kyanitian",
               		"... weiblich und enby":"Iridian",
               		"... gegenüberliegendem":"Juleric",
               		"Weitere Begriffe":"Demetersexual, Hauynitian"
@@ -138,7 +138,7 @@ window.onload = function () {
               		"zu bestimmte Gender":
               		[{
 		              	"... smushed Männer":"Azurian, Diamondian",
-		              	".. smushed Enby":"Hecatolic",
+		              	"... smushed Enby":"Hecatolic, Kyanitian",
 		              	"... smushed das eigene Gender":"Cinnabaric",
 		              	"... zum gegenüberliegendem":"Juleric"
               		}],
@@ -257,6 +257,7 @@ window.onload = function () {
           [{
               "Vorhandensein von Anziehung": "Allosexuell, Zedsexuell, Comsexuell",
               "Konstante Intensität der Anziehung":"Diastimisexuell",
+              "Konstante Orientierung":"Kymenic",
               "Sich abwechselnde Sexualität":"Duosexuell",
               "Kein Interesse an der Anziehung":"Apathsexuell",
 	          "Andere Sexualität als erwünscht":"Buenosexuell",
@@ -290,7 +291,7 @@ window.onload = function () {
          	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
          	      "Zeitlich Variable Sexualität":
          	      [{
-	                  "Variiernde Anziehungstärke": "Aceflux, Alloflux",
+	                  "Variiernde Anziehungstärke": "Aceflux, Alloflux, Kymenic",
 	                  "Anziehungsspitzen": "Acespike, Allospike",
 	                  "Die Identität variiert":"Abrosexuell, *flexible, *flux",
 	                  "Die Anziehung ist verschwunden":"Dwinsexual"
@@ -331,7 +332,8 @@ window.onload = function () {
 	        	"Gliederung in Ebenen":"Brickhillsexuell",
 	        	"Zweifel an der eigenen Orientierung":"Implasexual, Inexsexual, Xumsexual",
 	        	"Unsicherheit mit der Sexualität":"Incerta",
-	        	"Noch nicht aufgedeckte Anziehung":"Innocentsexual"
+	        	"Noch nicht aufgedeckte Anziehung":"Innocentsexual",
+	        	"Begriffe sammelnd":"Kiwihoarder"
 	        }],
         "Abstraktion":"Abstraktionsebene",
         "Abstraktionsebene":
@@ -345,6 +347,7 @@ window.onload = function () {
         	}],
         	"Keine Menschen und Tiere":"Exceptiosexual"
 	        }],
+          	"Fiktiv und menschlich":"Kaitasexual",
           	"Auch mit 2+ Menschen":"Polya, nicht Monoa"
 
         }],
