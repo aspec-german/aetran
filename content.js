@@ -314,7 +314,7 @@ window.onload = function () {
                   "... aus Videospielen":"Gamosexual"      		
 	        	}],
 	        	"Keine Menschen und Tiere":"Exceptiosexual"
-	        }]
+	        }],
           	"Auch mit 2+ Menschen":"Polya, nicht Monoa"
           }]
 
