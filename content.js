@@ -61,6 +61,7 @@ window.onload = function () {
               	"Weiblich smushed...":
               	[{
 	              	"Weiblich smushed u.a. weiblich":"Agatic, Lesbisch, Sapphic",
+	              	"Weiblich smushed u.a. männlich":"Julietian",
 	              	"Frau smushed nur Frauen":"Lesbisch, Feminosexual",
 	              	"Weiblich smushed Frauen":"Femaric, Lesbisch",
 	              	"Weiblich smushed weiblich & enby":"Amethystian, Lesbisch, Sapphic",         
@@ -119,6 +120,7 @@ window.onload = function () {
               		"... weiblich":"Auriora",
               		"... enby":"Hecatolic",
               		"... weiblich und enby":"Iridian",
+              		"... gegenüberliegendem":"Juleric",
               		"Weitere Begriffe":"Demetersexual, Hauynitian"
               	}],
               	"Genderqueer smushed":"Genderqueer smushed...",
@@ -137,7 +139,8 @@ window.onload = function () {
               		[{
 		              	"... smushed Männer":"Azurian, Diamondian",
 		              	".. smushed Enby":"Hecatolic",
-		              	"... smushed das eigene Gender":"Cinnabaric"
+		              	"... smushed das eigene Gender":"Cinnabaric",
+		              	"... zum gegenüberliegendem":"Juleric"
               		}],
               		"... zu mehreren Gender":"zu mehreren Gender",
               		"zu mehreren Gender":
@@ -147,6 +150,7 @@ window.onload = function () {
 		              	"... smushed Enby und Frauen":"Axinitian, Benitoitic, Iolitian",
 		              	"... smushed Männer und Frauen":"Callistian",
 		                "... smushed Männer":"Fluorian",
+		              	"... zum gegenüberliegendem":"Juleric",
 		                "Weitere Begriffe":"Hauynitian"
 
 	           	   }],
