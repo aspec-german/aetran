@@ -55,6 +55,7 @@ window.onload = function () {
 	              	"... u.a. männlich & enby":"Asterosian, Schwul",     
 	              	"... weiblich und enby":"Litian",
 	              	"... u.a. enby":"Astroidian",
+	              	"... männlich, weiblich, enby":"Marblic",
 	              	"Mann smushed u.a. Frauen":"Duaric",
 	              	"M-Spec, wechselnd Präf.":"Liberosexual",
               		"Weitere Begriffe":"Androcupiosappho"
@@ -69,7 +70,7 @@ window.onload = function () {
 	              	"... weiblich & enby":"Amethystian, Lesbisch, Sapphic",         
 	              	"... u.a. enby":"Asterian",
 	              	"Frau smushed Enby und Männer":"Citrinian",
-	              	"Frau smushed u.a. Männer":"Duaric".
+	              	"Frau smushed u.a. Männer":"Duaric",
 	              	"... alle":"Luminian"
               	}],
               	"Enby smushed":"Enby smushed...",
@@ -97,7 +98,7 @@ window.onload = function () {
               	"1 Agender smushed":"1 Agender smushed...",
               	"Agenamoric":
               	[{
-              		"Umbrella Term":"Agenamoric"
+              		"Umbrella Term":"Agenamoric",
 	              	"1 Agender orientert sich":"Agenamoric",
 	              	"... u.a. Enbys":"Agenidian, Wisterian",
 	              	"... u.a. männlich":"Agenilian, Thistlian, Fenosexuell",
@@ -108,6 +109,7 @@ window.onload = function () {
 	              	"... nur Frauen":"Naneosexuell",
 	              	"... u.a. xenic":"Agenixian",
 	              	"... Agender":"Gaesexuell, Delphinian",
+	              	"... Agender und enby":"Magnolian",
 	              	"... alle":"Dahlian"
               	}],
               	"1 Anonbinary smushed":"Anonbinary smushed...",
@@ -129,7 +131,8 @@ window.onload = function () {
               		"... männlich und enby":"Labradorian",
               		"... gegenüberliegendem":"Juleric",
               		"Weitere Begriffe #1":"Demetersexual, Hauynitian",
-              		"Weitere Begriffe #2":"Lahurian, Lahuric, Lapisian"
+              		"Weitere Begriffe #2":"Lahurian, Lahuric, Lapisian",
+              		"Weitere Begriffe #3":"Marsexuell, Mesque"
               	}],
               	"Genderqueer smushed":"Genderqueer smushed...",
               	"Genderqueer smushed...":
@@ -138,7 +141,7 @@ window.onload = function () {
               		"... männlich und enby":"Heliodoran",
               		"... Frauen":"Feminamoric"
               	}],
-              	"Nicht-Erdisch smushed":"Nicht-Erdisch smushed..."
+              	"Nicht-Erdisch smushed":"Nicht-Erdisch smushed...",
               	"Nicht-Erdisch smushed...":
               	[{
               		"... Nicht-Erdisch":"Lurric"
@@ -151,13 +154,13 @@ window.onload = function () {
               		"zu bestimmte Gender":
               		[{
 		              	"... smushed Männer":"Azurian, Diamondian",
-		              	"... smushed Frauen":"Larimarian",
+		              	"... smushed Frauen":"Larimarian, Morganitian",
 		              	"... smushed weiblich":"Lunsynian",
-		              	"... smushed Enby":"Hecatolic, Kyanitian",
+		              	"... smushed Enby":"Hecatolic, Kyanitian, Mersynian",
 		              	"... smushed Männer und Enby":"Labradorian",
 		              	"... smushed das eigene Gender":"Cinnabaric",
 		              	"... zum gegenüberliegendem":"Juleric",
-		              	"... smushed alles":"Luminian"
+		              	"... smushed alles":"Luminian, Mesque"
               		}],
               		"... zu mehreren Gender":"zu mehreren Gender",
               		"zu mehreren Gender":
@@ -168,7 +171,7 @@ window.onload = function () {
 		              	"... smushed Männer und Frauen":"Callistian",
 		                "... smushed Männer":"Fluorian",
 		              	"... zum gegenüberliegendem":"Juleric",
-		                "Weitere Begriffe":"Hauynitian, Lapisian"
+		                "Weitere Begriffe":"Hauynitian, Lapisian, Mesque"
 
 	           	   }],
               		"... zu vielen Gender":"zu vielen Gender",
@@ -189,8 +192,8 @@ window.onload = function () {
               "unabhängig vom eigenem Gender":"non-juvelic",
               "non-juvelic":
               [{
-              	"Zu mehreren Gender":"M-Spec",
-              	"M-Spec":
+              	"Zu mehreren Gender":"M-Spec smushed...",
+              	"M-Spec smushed...":
               	[{
               		"Umbrella Term":"Multisexuell, Plurisexuell",
 	              	"Unabhängig vom Gender":"Pansexuell, Ambivaic, Anthro",
@@ -199,40 +202,51 @@ window.onload = function () {
 	              	"Zu wechselnden Gender":"Flinic",
 	              	"Genau 2 Gender":"Disexual",
 	              	"Genau 6 Gender":"Hexsexual",
-	              	"Mindestens 2 Gender":"Bisexuell, Erbisexuell, Seisexuell",
-	              	"Smushed beide binäre Gender":"Binsexual",
+	              	"Mindestens 2 Gender #1":"Bisexuell, Erbisexuell",
+	              	"Mindestens 2 Gender #2":"Seisexuell, Multisexual",
+	              	"... beide binäre Gender":"Binsexual",
 	              	"Vielleicht mindestens 2 Gender":"Bicurious, Biflexible, Biflux",
 	              	"Zu vielen, aber nicht allen Gender":"Polysexual",
 	              	"Nicht das eigene Gender":"Differosexual",
-	              	"Präferenz zu neutrale Gender":"Ainic",
-              		"Smushed u.a. Agender-Menschen":"Ageninic",
-              		"Smushed nur neutrale Gender":"Neusexuell",
-              		"Smushed Weiblichkeit":"Finic",
-              		"Smushed Androgynität":"Linsexual",
-              		"Smushed Genderexpression":"Flixasexual, Flixisexual",
-                  	"Smushed Genderkonformität":"GCsexuell",
-                 	"Smushed Gender-Nichtkonformität":"GNCsexual",
-	              	"Smushed Faunagender":"Anuafsexuell",
-	              	"Smushed Kingender":"Anuafsexuell",
-	              	"Smushed wechselnde Gender":"Aquian",
-	              	"Smushed Bigender":"Bigeninic",
+	              	"... zu neutrale Gender":"Ainic",
+              		"... u.a. Agender-Menschen":"Ageninic",
+              		"... nur neutrale Gender":"Neusexuell",
+              		"... Weiblichkeit":"Finic",
+              		"... Männlichkeit":"Minic, Minsexual",
+              		"... Androgynität":"Linsexual",
+              		"... Genderexpression":"Flixasexual, Flixisexual",
+                  	"... Genderkonformität":"GCsexuell",
+                 	"... Gender-Nichtkonformität":"GNCsexual",
+	              	"... Faunagender":"Anuafsexuell",
+	              	"... u.a. nicht-Menschlich":"Medusan",
+	              	"... Kingender":"Anuafsexuell",
+	              	"... wechselnde Gender":"Aquian",
+	              	"... Bigender":"Bigeninic",
 	              	"Mindestens 2 Gender ohne Männer":"Binitor",
 	              	"Mindestens 2 Gender ohne Frauen":"Binotrix",
-                  	"Smushed primär nicht-weiblich":"Gynecurious",
-                  	"Smushed primär nicht-männlich":"Lumibroussexual",
-                  	"Smushed primär hetero #1":"Heteroflexible, Elasexual",
-                  	"Smushed primär hetero #2":"Homocurious",
-              		"Smushed u.a. Devilgender":"Devilsexual",
-	              	"Weitere Begriffe #1":"Ambisexuell, Legeresexual"
-	              	"Weitere Begriffe #2":"Lumibroussexual"
+                  	"... primär nicht-weiblich":"Gynecurious",
+                  	"... primär nicht-männlich":"Lumibroussexual",
+                  	"... primär hetero #1":"Heteroflexible, Elasexual",
+                  	"... primär hetero #2":"Homocurious",
+              		"... u.a. Devilgender":"Devilsexual",
+              		"... Personen mit mehreren Gender":"Multigenic",
+	              	"Weitere Begriffe #1":"Ambisexuell, Legeresexual",
+	              	"Weitere Begriffe #2":"Lumibroussexual, Mercuric",
+	              	"Weitere Begriffe #3":"Multiflexible"
               	}],
               	"Zu einem Gender":"Monosexuell",
               	"Monosexuell":
               	[{
+              		"Smushed männlich #1":"Mascic, Masexual, Muscusexual",
+              		"Smushed männlich #2":"Latamascusexual, Solariasexual",
               		"Smushed vielleicht männlich":"Androcurios",
-              		"Smushed hauptsächlich männlich":"Androflexible",
-              		"Smushed ausschließlich männlich":"Androgynosexuell",
+              		"Smushed u.a. männlich":"Mascusexual",
+              		"Smushed u.a. Männer":"Minkalosfem",
+              		"Smushed hauptsächlich männlich":"Androflexible, Minflexible",
+              		"Smushed ausschließlich männlich":"Androgynosexuell, Minkalosfem",
               		"Smushed ausschließlich Männer":"Androsexuell",
+              		"Smushed männliche Männer":"Minmasexual",
+              		"Smushed männliche Frauen":"Minwomasexual",
               		"Smushed androgyne Männer":"Linmasexual",
               		"Smushed weibliche Männer":"Finmasexuell",
               		"Smushed weibliche Männer und Enby":"Finuranic",
@@ -283,6 +297,7 @@ window.onload = function () {
               "Konstante Intensität der Anziehung":"Diastimisexuell",
               "Konstante Orientierung":"Kymenic",
               "Sich abwechselnde Sexualität":"Duosexuell",
+              "Weicht in Tagträumen ab":"Malasexual",
               "Kein Interesse an der Anziehung":"Apathsexuell",
 	          "Andere Sexualität als erwünscht":"Buenosexuell",
               "Innere Hürde beim Ausleben":"Aporisexuell",
@@ -296,6 +311,7 @@ window.onload = function () {
               "Umbrella Term": "Acespec",
               "Ich spüre nie Anziehung": "Asexuell",
               "Ich spüre teilweise Anziehung": "Graubereich",
+              "Nur eine bestimmte Person":"Monasexual",
               "Graubereich": 
                 [{
                   "Umbrella Term": "Greysexuell",
@@ -311,6 +327,7 @@ window.onload = function () {
 	                  "Konsum oder Geruch von Kakao":"Hocosexual",
 	                  "Konsum oder Geruch von Kaffee":"Leasexual",
 	                  "Konsum oder Geruch von Dessert":"Dessexual",
+	                  "Konsum oder Geruch von Mahlzeiten":"Measexual",
 	                  "Ansprechende Kommunikation und Gespräche":"Communicosexuell"
          	      }],
          	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
@@ -359,6 +376,7 @@ window.onload = function () {
 	        	"Unsicherheit mit der Sexualität":"Incerta",
 	        	"Noch nicht aufgedeckte Anziehung":"Innocentsexual",
 	        	"Begriffe sammelnd":"Kiwihoarder",
+	        	"Wechselnde Label":"Messexual",
 	        	"Wechselnde Label, k. Orientierung":"Labelflux",
 	        	"Zum:r Partner:in":"Lovesexual"
 	        }],
@@ -376,6 +394,19 @@ window.onload = function () {
 	        }],
           	"Fiktiv und menschlich":"Kaitasexual",
           	"Auch mit 2+ Menschen":"Polya, nicht Monoa"
+        }],
+        "Anziehungen innerhalb von Systemen":"Mutolic",
+        "Mutolic":
+        [{
+        	"Von Frau zu":"Von Frau zu...",
+        	"Von Frau zu...":
+        	[{
+        		"Frau zu Frau":"Saputolic",
+        		"Mann zu Mann":"Achutolic",
+        		"Enby zu Enby":"Entolic",
+        		"Agender zu Agender":"Agtolic",
+        		"Xenogender zu Xenogender":"Xentolic"
+        	}]
 
         }],
       "arospec":
