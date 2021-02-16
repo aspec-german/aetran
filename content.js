@@ -108,6 +108,7 @@ window.onload = function () {
 	              	"... nur männlich":"Yaesexuell",
 	              	"... M-Spec":"Agenipian",
 	              	"... u.a. weiblich":"Agenirian, Azalian, Iliosexual",
+                  "... u.a. binär":"Orchidian",
 	              	"... nur Frauen":"Naneosexuell",
 	              	"... u.a. xenic":"Agenixian",
 	              	"... Agender":"Gaesexuell, Delphinian",
@@ -123,6 +124,7 @@ window.onload = function () {
                   "... nur Neutrois":"Netranale",
 	              	"... Frauen, Enby und Anonbinary":"Hyscenare",
 	              	"... Frauen und Neutrois":"Leramuzze",
+                  "... non-aligned Enby und Binäre":"Ondoninne",
 	              	"Weitere Begriffe:":"Artudette"
               	}],
 	              	"Genderfluid smushed":"Genderfluid smushed...",
@@ -132,8 +134,9 @@ window.onload = function () {
               		"... enby":"Hecatolic, Kyanitian, Lapian",
               		"... weiblich und enby":"Iridian",
               		"... männlich und enby":"Labradorian",
-              		"... gegenüberliegendem":"Juleric",
-                  "Sexualität wechselt mit Gender":"Novosexuell",
+              		"... gegenüberliegendem":"Juleric, Omnistraight",
+                  "... zum eigenem Gender":"Omnique",
+                  "Sexualität wechselt mit Gender":"Novosexuell, Omnistraight",
               		"Weitere Begriffe #1":"Demetersexual, Hauynitian",
               		"Weitere Begriffe #2":"Lahurian, Lahuric, Lapisian",
               		"Weitere Begriffe #3":"Marsexuell, Mesque"
@@ -170,7 +173,8 @@ window.onload = function () {
               		"zu mehreren Gender":
               		[{
 		              	"... smushed M-Spec binär":"Anfisian, Aurian",
-		              	"... smushed Enby und Männer":"Aventurian, Floric, Heliodoran",
+                    "... smushed Enby und Männer #1":"Aventurian, Floric, Heliodoran",
+                    "... smushed Enby und Männer #2":"Opalian",
 		              	"... smushed Enby und Frauen":"Axinitian, Benitoitic, Iolitian",
 		              	"... smushed Männer und Frauen":"Callistian",
 		                "... smushed Männer":"Fluorian",
@@ -254,7 +258,8 @@ window.onload = function () {
               		"Umbrella Term":"Multisexuell, Plurisexuell",
 	              	"Unabhängig vom Gender":"Pansexuell, Ambivaic, Anthro",
 	              	"Unabhängig vom Gender #2":"Blanesexual, Idesexual",
-	              	"Zu allen Gender":"Omnisexuell, Ambivaic",
+	              	"Zu allen Gender":"Omnisexuell, Ambivaic, Omniflux",
+                  "Ggf. zu allen Gender":"Omnicurious",
 	              	"Zu wechselnden Gender":"Flinic",
 	              	"Genau 2 Gender":"Disexual",
 	              	"Genau 6 Gender":"Hexsexual",
@@ -332,7 +337,6 @@ window.onload = function () {
               		"... u.a. Frauen":"Femkalosmin",
               		"... u.a. Agender":"Firasexual",
                   "... u.a. Anonbinary":"Nogarian",
-
               		"... sich selbst":"Autosexuell"
               	}],
               	"Mindestens eine Orientierung":"Amplusic",
@@ -368,10 +372,12 @@ window.onload = function () {
               "Vorhandensein von Anziehung": "Allosexuell, Zedsexuell, Comsexuell",
               "Konstante Intensität der Anziehung":"Diastimisexuell",
               "Konstante Orientierung":"Kymenic",
+              "''Keine Orientierung''":"Orientationsless",
               "Sich abwechselnde Sexualität":"Duosexuell",
               "Weicht in Tagträumen ab":"Malasexual",
               "Kein Interesse an der Anziehung":"Apathsexuell",
 	            "Andere Sexualität als erwünscht":"Buenosexuell",
+              "Andere Orientierung bei Pornos":"Occosexuell",
               "Innere Hürde beim Ausleben":"Aporisexuell",
               "Eigene Orientierung ist unklar":"Questioning, Clypeussexual",
               "Eigene Orientierung ist unbeschreiblich":"Cryptosexual, Novisexuell",
@@ -404,6 +410,7 @@ window.onload = function () {
 	                  "Konsum oder Geruch von Dessert":"Dessexual",
 	                  "Konsum oder Geruch von Mahlzeiten":"Measexual",
                     "Stereotypische Romantik":"Nickilosexuell",
+                    "Im Eigentum dieser Person sein":"Omochasexuell",
 	                  "Ansprechende Kommunikation und Gespräche":"Communicosexuell"
          	      }],
          	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
@@ -467,10 +474,27 @@ window.onload = function () {
                 "... aus Comics und Kartoons":"Cartosexual",
               "... aus Videospielen":"Gamosexual"      		
         	}],
-        	"Keine Menschen und Tiere":"Exceptiosexual"
-	        }],
-          	"Fiktiv und menschlich":"Kaitasexual",
-          	"Auch mit 2+ Menschen":"Polya, nicht Monoa"
+        	"Keine Menschen und Tiere":"Exceptiosexual",
+          "Fiktiv und menschlich":"Kaitasexual",
+          "Auch mit 2+ Menschen":"Polya, nicht Monoa",
+          "Mit Objekten":"Objectum",
+          "Objectum":
+          [{
+            "Spielzeuge, Puppen, Statuen":"Agalmatum",
+            "Fahrgeschäfte":"Amusrum",
+            "Konzepte":"Conceptum",
+            "Aufblasbares":"Inflateajectum",
+            "Essen und Rezepte":"Onsum",
+            "Flora":"Plantum",
+            "Plüsch(Tiere)":"Plushum",
+            "(Bett)Decken":"Qultim",
+            "Selbsterstelltes":"Sculptum",
+            "Möbel":"Turum",
+            "Fahrzeuge und technische Geräte":"Vehium",
+            "Natur":"Naturum",
+            "Spezifische Objekte":"Multum"
+          }]
+	        }]
         }],
       "arospec":
         [{
