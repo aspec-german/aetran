@@ -52,6 +52,7 @@ window.onload = function () {
               	"Männlich smushed...":
               	[{
               		"... u.a. männlich":"Achillean, Schwul",
+                  "... nur Männlichkeit":"Proquusexuell",
               		"Mann smushed nur Männer":"Schwul",
 	              	"... u.a. männlich & enby":"Asterosian, Schwul",     
 	              	"... weiblich und enby":"Litian",
@@ -65,6 +66,7 @@ window.onload = function () {
               	"Weiblich smushed...":
               	[{
 	              	"... u.a. weiblich":"Agatic, Lesbisch, Sapphic",
+                  "... nur Weiblichkeit":"Proquasexuell",
 	              	"... u.a. männlich":"Julietian",
 	              	"Frau smushed nur Frauen":"Lesbisch, Feminosexual",
 	              	"... Frauen":"Femaric, Lesbisch",
@@ -108,6 +110,7 @@ window.onload = function () {
 	              	"... nur männlich":"Yaesexuell",
 	              	"... M-Spec":"Agenipian",
 	              	"... u.a. weiblich":"Agenirian, Azalian, Iliosexual",
+                  "... weiblich und enby":"Plumerian",
                   "... u.a. binär":"Orchidian",
 	              	"... nur Frauen":"Naneosexuell",
 	              	"... u.a. xenic":"Agenixian",
@@ -135,7 +138,7 @@ window.onload = function () {
               		"... weiblich und enby":"Iridian",
               		"... männlich und enby":"Labradorian",
               		"... gegenüberliegendem":"Juleric, Omnistraight",
-                  "... zum eigenem Gender":"Omnique",
+                  "... zum eigenem Gender":"Omnique, Poudrettian",
                   "Sexualität wechselt mit Gender":"Novosexuell, Omnistraight",
               		"Weitere Begriffe #1":"Demetersexual, Hauynitian",
               		"Weitere Begriffe #2":"Lahurian, Lahuric, Lapisian",
@@ -165,7 +168,7 @@ window.onload = function () {
 		              	"... smushed weiblich":"Lunsynian",
 		              	"... smushed Enby":"Hecatolic, Kyanitian, Mersynian",
 		              	"... smushed Männer und Enby":"Labradorian",
-		              	"... smushed das eigene Gender":"Cinnabaric",
+		              	"... smushed das eigene Gender":"Cinnabaric, Poudrettian",
 		              	"... zum gegenüberliegendem":"Juleric",
 		              	"... smushed alles":"Luminian, Mesque"
               		}],
@@ -178,6 +181,7 @@ window.onload = function () {
 		              	"... smushed Enby und Frauen":"Axinitian, Benitoitic, Iolitian",
 		              	"... smushed Männer und Frauen":"Callistian",
 		                "... smushed Männer":"Fluorian",
+                    "... smushed Enby, Männer, Frauen":"Panamoric",
 		              	"... zum gegenüberliegendem":"Juleric",
 		                "Weitere Begriffe":"Hauynitian, Lapisian, Mesque"
 
@@ -255,9 +259,13 @@ window.onload = function () {
               	"Zu mehreren Gender":"M-Spec smushed...",
               	"M-Spec smushed...":
               	[{
-              		"Umbrella Term":"Multisexuell, Plurisexuell",
+                  "Umbrella Term #1":"Multisexuell, Plurisexuell, Pluralian",
+                  "Umbrella Term #2":"M-Spec, P-Spec, Plur Spectrum, Plurian",
+                  "... M-Spec":"Pluramoric",
 	              	"Unabhängig vom Gender":"Pansexuell, Ambivaic, Anthro",
-	              	"Unabhängig vom Gender #2":"Blanesexual, Idesexual",
+                  "Unabhängig vom Gender #2":"Blanesexual, Idesexual, Pancurious",
+                  "Unabhängig vom Gender #3":"Panflux, Psychesexuell",
+                  "Nach Herzenslust":"Philosexuell",
 	              	"Zu allen Gender":"Omnisexuell, Ambivaic, Omniflux",
                   "Ggf. zu allen Gender":"Omnicurious",
 	              	"Zu wechselnden Gender":"Flinic",
@@ -267,8 +275,9 @@ window.onload = function () {
 	              	"Mindestens 2 Gender #2":"Seisexuell, Multisexual",
 	              	"... beide binäre Gender":"Binsexual",
 	              	"Vielleicht mindestens 2 Gender":"Bicurious, Biflexible, Biflux",
-	              	"Zu vielen, aber nicht allen Gender":"Polysexual",
-	              	"Nicht das eigene Gender":"Differosexual",
+	              	"Zu vielen, aber nicht allen Gender":"Polysexuell",
+	              	"Nicht das eigene Gender":"Differosexual, Penultisexuell",
+                  "Nicht das gegenüberliegende":"Pencontrasexuell",
 	              	"... zu neutrale Gender":"Ainic, Neusexuell",
                   "... keine binären Gender":"Noboric",
                   "... nur keine Cis-Males":"Nocismasexuell",
@@ -303,6 +312,7 @@ window.onload = function () {
                   "... Katzenmenschen":"Nekosexuell",
                   "... keine Frauen":"Nofemaric, Nowomasexuell",
                   "... keine Männer":"Nomascic, Nomasexuell",
+                  "... Männer, Frauen, non-Solarian":"Plutaric",
 	              	"Weitere Begriffe #1":"Ambisexuell, Legeresexual",
 	              	"Weitere Begriffe #2":"Lumibroussexual, Mercuric",
 	              	"Weitere Begriffe #3":"Multiflexible"
@@ -337,7 +347,9 @@ window.onload = function () {
               		"... u.a. Frauen":"Femkalosmin",
               		"... u.a. Agender":"Firasexual",
                   "... u.a. Anonbinary":"Nogarian",
-              		"... sich selbst":"Autosexuell"
+                  "... u.a. Pangender":"Paninic",
+              		"... sich selbst":"Autosexuell",
+                  "Nach Herzenslust":"Philosexuell"
               	}],
               	"Mindestens eine Orientierung":"Amplusic",
               	"Die Eigenaziehung variiert":"Autoflux",
@@ -358,6 +370,7 @@ window.onload = function () {
             [{
               "Haare":"Ja wie nennt sich das?",
               "Augen":"Ja wie nennt sich das?",
+              "Körpergröße":"Ja wie nennt sich das?",
               "Kultur":"Bloodsexuell",
               "Intelligenz":"Sapiosexuell",
               "Identische Neurodiversität":"Feathalike",
@@ -372,16 +385,20 @@ window.onload = function () {
               "Vorhandensein von Anziehung": "Allosexuell, Zedsexuell, Comsexuell",
               "Konstante Intensität der Anziehung":"Diastimisexuell",
               "Konstante Orientierung":"Kymenic",
-              "''Keine Orientierung''":"Orientationsless",
+              "''Keine Orientierung''":"Orientationsless, Puretécentia",
+              "Noch keine Orientierung":"Puretécentia",
               "Sich abwechselnde Sexualität":"Duosexuell",
+              "Sexualität abhängig vom Gender":"Parosexuell",
               "Weicht in Tagträumen ab":"Malasexual",
               "Kein Interesse an der Anziehung":"Apathsexuell",
 	            "Andere Sexualität als erwünscht":"Buenosexuell",
               "Andere Orientierung bei Pornos":"Occosexuell",
               "Innere Hürde beim Ausleben":"Aporisexuell",
               "Eigene Orientierung ist unklar":"Questioning, Clypeussexual",
+              "Eigene Orientierung ist unsicher":"Paraidemsexuell",
               "Eigene Orientierung ist unbeschreiblich":"Cryptosexual, Novisexuell",
-              "Kein passendes Label":"Novisexuell",
+              "Kein passendes Label":"Novisexuell, Pomosexuell",
+              "Ablehnen von Label":"Pomosexuell",
               "Sexuell aktiv nur mit Anziehung":"Axiosexuell",
               "Stärke der Sexualität nicht beschreibbar":"Nebulasexuell",
               "Bedingte/keine/wenig Anziehung":"Asexual Spectrum",
@@ -399,24 +416,28 @@ window.onload = function () {
                   "Bedingte Sexualität":
                   [{
                     "Bestehnde Bindung": "Demisexuell",
-                    "Geistig Verbunden": "Noetisexuell",
+                    "Geistig Verbunden": "Noetisexuell, Psychesexuell",
 	                  "Keine Bestehnde Bindung": "Freysexuell",
 	                  "Zu unbekannten Personen":"Incognosexual",
 	                  "Exklusiv zu online-Personen":"Internetsexual",
 	                  "Die Person fühlt sich zu mir angezogen":"Reciprosexuell",
+                    "Ich zeige meine Anziehung zuerst":"Pristrosexuell",
 	                  "Konsum oder Geruch von Kaffee":"Coffeesexual",
 	                  "Konsum oder Geruch von Kakao":"Hocosexual",
 	                  "Konsum oder Geruch von Kaffee":"Leasexual",
 	                  "Konsum oder Geruch von Dessert":"Dessexual",
 	                  "Konsum oder Geruch von Mahlzeiten":"Measexual",
                     "Stereotypische Romantik":"Nickilosexuell",
+                    "Stolz zur eigenen identität":"Prisexuell",
                     "Im Eigentum dieser Person sein":"Omochasexuell",
-	                  "Ansprechende Kommunikation und Gespräche":"Communicosexuell"
+	                  "Ansprechende Kommunikation und Gespräche":"Communicosexuell",
+                    "Eigene Überzeugung der Anzeihung":"Prospasexuell"
          	      }],
          	      "Zeitliche Veränderungen":"Zeitlich Variable Sexualität",
          	      "Zeitlich Variable Sexualität":
          	      [{
-	                  "Variiernde Anziehungstärke": "Aceflux, Alloflux, Kymenic",
+	                  "Variiernde Anziehungstärke #1":"Aceflux, Alloflux, Kymenic",
+                    "Variiernde Anziehungstärke #2":"Pulsaric",
 	                  "Anziehungsspitzen": "Acespike, Allospike",
 	                  "Die Identität variiert":"Abrosexuell, *flexible, *flux",
 	                  "Die Anziehung ist verschwunden":"Dwinsexual"
@@ -461,7 +482,12 @@ window.onload = function () {
 	        	"Begriffe sammelnd":"Kiwihoarder",
 	        	"Wechselnde Label":"Messexual",
 	        	"Wechselnde Label, k. Orientierung":"Labelflux",
-	        	"Zum:r Partner:in":"Lovesexual"
+	        	"Zum:r Partner:in":"Lovesexual",
+            "Nutzen nicht exakt passende Label":"Personasexuell",
+            "Nach Herzenslust":"Philosexuell",
+            "Nischen-Orientierung":"Pocket Sexuality",
+            "Mehrere Sexualitäten gleichzeitig":"Pollosexuell",
+            "Identität existiert noch nicht":"Pomoimplasexuell"
 	        }],
         "Abstraktion":"Abstraktionsebene",
         "Abstraktionsebene":
@@ -476,7 +502,7 @@ window.onload = function () {
         	}],
         	"Keine Menschen und Tiere":"Exceptiosexual",
           "Fiktiv und menschlich":"Kaitasexual",
-          "Auch mit 2+ Menschen":"Polya, nicht Monoa",
+          "Auch mit 2+ Menschen":"Polya, nicht Monoa, Plurian",
           "Mit Objekten":"Objectum",
           "Objectum":
           [{
