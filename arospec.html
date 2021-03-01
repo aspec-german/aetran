@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Mehr oder weniger online...</title>
+
+<link rel="stylesheet" href="css/vtree.css" type="text/css"/>
+
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="dist/vtree.js"></script>
+
+<!-- How to use debug mode.
+  1. open browser's developer tools.
+  2. input the following command.
+     vt.debug(true).update()
+-->
+
+<script src="arospec.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<h1>aetran ist ein Flußdiagram zur Suche von Label im Arospec*</h1>
+		<p>Die Liste ist unvollständig!
+		Bitte hilf mit, sie zu erweitern.
+		Sie hat jedoch keinen Anspruch auf Vollständigkeit.
+		Weiter sei dir bitte bewusst, dass durch den Baum die Label nicht vollständig bechrieben sind und auch nicht werden können.
+		Die Label sind als Hinweise grob vorsortiert und nicht beschrieben.
+		Weiter werden die Begriffe "männlich" und "weiblich" als Synonyme für "männlich gelesen" und "weiblich gelesen" verwendet.
+		Dies geschieht aus reinen Platzgründen, für jede Beschreibung steht eine sehr geringe maximale Zeichenzahl zur Verfügung.
+		Das Wort "smushed" ist abgeleitet vom Wort "Smush", welches ein sexueller Crush ist.
+		Zu "smushen" ist dann das zugehörige Verb, das für diese Liste neu geschaffen wurde, um Platz zu sparen.</p>
+		<div id="msg" style="color: red;"></div>
+		<div id="container"></div>
+	</div>
+</body>
+
+</html>
