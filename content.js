@@ -53,11 +53,13 @@ window.onload = function () {
               	"Männlich smushed...":
               	[{
               		"... u.a. männlich":"Achillean, Schwul",
+                  "... u.a. Frauen":"Romeric",
                   "... nur Männlichkeit":"Proquusexuell",
               		"Mann smushed nur Männer":"Schwul",
 	              	"... u.a. männlich & enby":"Asterosian, Schwul",     
 	              	"... weiblich und enby":"Litian",
 	              	"... u.a. enby":"Astroidian, Nibitic",
+                  "... männlich und weiblich":"Rochillic",
 	              	"... männlich, weiblich, enby":"Marblic",
 	              	"Mann smushed u.a. Frauen":"Duaric",
 	              	"M-Spec, wechselnd Präf.":"Liberosexual",
@@ -117,6 +119,7 @@ window.onload = function () {
 	              	"... u.a. xenic":"Agenixian",
 	              	"... Agender":"Gaesexuell, Delphinian",
 	              	"... Agender und enby":"Magnolian",
+                  "... zu non-aligned enby":"Rashenrolle",
 	              	"... alle":"Dahlian"
               	}],
               	"1 Anonbinary smushed":"Anonbinary smushed...",
@@ -125,6 +128,7 @@ window.onload = function () {
 	              	"... nur Agender":"Argelinne",
 	              	"... nur Anonbinary":"Cypraette",
 	              	"... nur Männer":"Erwekinne",
+                  "... nur Frauen":"Robiselle",
                   "... nur Neutrois":"Netranale",
 	              	"... Frauen, Enby und Anonbinary":"Hyscenare",
 	              	"... Frauen und Neutrois":"Leramuzze",
@@ -135,9 +139,10 @@ window.onload = function () {
 	              	"Genderfluid smushed...":
               	[{
               		"... weiblich":"Auriora, Lunsynian",
+                  "... männlich":"Rubian",
               		"... enby":"Hecatolic, Kyanitian, Lapian",
               		"... weiblich und enby":"Iridian",
-              		"... männlich und enby":"Labradorian",
+              		"... männlich und enby":"Labradorian, Rubellitan",
               		"... gegenüberliegendem":"Juleric, Omnistraight",
                   "... zum eigenem Gender":"Omnique, Poudrettian",
                   "Sexualität wechselt mit Gender":"Novosexuell, Omnistraight",
@@ -164,11 +169,11 @@ window.onload = function () {
               		"... einem bestimmtem Gender":"zu bestimmte Gender",
               		"zu bestimmte Gender":
               		[{
-		              	"... smushed Männer":"Azurian, Diamondian",
+		              	"... smushed Männer":"Azurian, Diamondian, Rubian",
 		              	"... smushed Frauen":"Larimarian, Morganitian",
 		              	"... smushed weiblich":"Lunsynian",
 		              	"... smushed Enby":"Hecatolic, Kyanitian, Mersynian",
-		              	"... smushed Männer und Enby":"Labradorian",
+		              	"... smushed Männer und Enby":"Labradorian, Rubellitan",
 		              	"... smushed das eigene Gender":"Cinnabaric, Poudrettian",
 		              	"... zum gegenüberliegendem":"Juleric",
 		              	"... smushed alles":"Luminian, Mesque"
@@ -239,7 +244,7 @@ window.onload = function () {
 		        		"... zu Mann":"Advotolic",
 		        		"... zu Enby":"Advetolic",
 		        		"... zu Agender":"Agtolic",
-		        		"... zu Xenogender":"Advixatolic"		        		
+		        		"... zu Xenogender":"Advixatolic"  		
 		        	}],
 		        	"Von Xenogender zu":"Von Xenogender zu...",
 		        	"Von Xenogender zu...":
@@ -426,6 +431,7 @@ window.onload = function () {
                     "Geringfügige Bindung":"Quartsexuell",
 	                  "Keine Bestehnde Bindung": "Freysexuell",
 	                  "Zu unbekannten Personen":"Incognosexual",
+                    "Person ist in einer Beziehung":"Relationsexuell",
 	                  "Exklusiv zu online-Personen":"Internetsexual",
 	                  "Die Person fühlt sich zu mir angezogen":"Reciprosexuell",
                     "Ich zeige meine Anziehung zuerst":"Pristrosexuell",
@@ -444,13 +450,14 @@ window.onload = function () {
          	      "Zeitlich Variable Sexualität":
          	      [{
 	                  "Variiernde Anziehungstärke #1":"Aceflux, Alloflux, Kymenic",
-                    "Variiernde Anziehungstärke #2":"Pulsaric",
+                    "Variiernde Anziehungstärke #2":"Pulsaric, Resexuell",
 	                  "Anziehungsspitzen": "Acespike, Allospike",
 	                  "Die Identität variiert":"Abrosexuell, *flexible, *flux",
 	                  "Die Anziehung ist verschwunden":"Dwinsexual"
          	      }]
                 }],
-              "Ich weiß nicht, was zu mir passt":"Agnosexuell"
+              "Ich weiß nicht, was zu mir passt":"Agnosexuell",
+              "Mag die Idee, aber sex repulsed":"Rosesexuell"
               }]         
           }],
           "sexuelle Präferenz": "sexuelle Präferenzen",
@@ -527,7 +534,8 @@ window.onload = function () {
             "Fahrzeuge und technische Geräte":"Vehium",
             "Natur":"Naturum",
             "Spezifische Objekte":"Multum"
-          }]
+          }],
+          "Roboter smushen Roboter":"Robotosexuell"
 	        }]
         }],
       "arospec":
