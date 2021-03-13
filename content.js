@@ -20,7 +20,8 @@ window.onload = function () {
     var s =`[{
       "Umbrella Terms":
       [{
-        "Alle GRSM-Personen":"Gay"
+        "Alle GRSM-Personen":"Gay, Queer",
+        "Queer Peope of Colour":"QPoC"
       }],
 
 
@@ -377,7 +378,10 @@ window.onload = function () {
               "Unabhängig von Körpermerkmalen":"Idesexual",
               "U. von sexuellen Körpermerkmalen":"Idisexual",
               "Katzenmenschen":"Nekosexuell",
-              "Untere Körperhälfte":"Lekanisexuell"
+              "Untere Körperhälfte":"Lekanisexuell",
+              "Queerness":"Queerian",
+              "Persönlichkeit":"Quirksexuell",
+              "Anhand der Sexualität":"Quissexuell"
             }],
           "Amative Orientierung": "amative Orientierung",
           "amative Orientierung":
@@ -395,6 +399,8 @@ window.onload = function () {
               "Andere Orientierung bei Pornos":"Occosexuell",
               "Innere Hürde beim Ausleben":"Aporisexuell",
               "Eigene Orientierung ist unklar":"Questioning, Clypeussexual",
+              "Insgesamt alles unklar":"Quoisexual",
+              "Unklar aufg. Neurodiversität":"Quassexeuell",
               "Eigene Orientierung ist unsicher":"Paraidemsexuell",
               "Eigene Orientierung ist unbeschreiblich":"Cryptosexual, Novisexuell",
               "Kein passendes Label":"Novisexuell, Pomosexuell",
@@ -417,6 +423,7 @@ window.onload = function () {
                   [{
                     "Bestehnde Bindung": "Demisexuell",
                     "Geistig Verbunden": "Noetisexuell, Psychesexuell",
+                    "Geringfügige Bindung":"Quartsexuell",
 	                  "Keine Bestehnde Bindung": "Freysexuell",
 	                  "Zu unbekannten Personen":"Incognosexual",
 	                  "Exklusiv zu online-Personen":"Internetsexual",
@@ -487,7 +494,8 @@ window.onload = function () {
             "Nach Herzenslust":"Philosexuell",
             "Nischen-Orientierung":"Pocket Sexuality",
             "Mehrere Sexualitäten gleichzeitig":"Pollosexuell",
-            "Identität existiert noch nicht":"Pomoimplasexuell"
+            "Identität existiert noch nicht":"Pomoimplasexuell",
+            "Errechnung von Kompatibilität":"Quadratosexuell"
 	        }],
         "Abstraktion":"Abstraktionsebene",
         "Abstraktionsebene":
